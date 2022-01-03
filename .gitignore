@@ -3,6 +3,7 @@ env
 .env
 .flaskenv
 logs
-*.ipynb
+test.ipynb
 __pycache__
 data
+*.png
