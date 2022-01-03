@@ -3,7 +3,7 @@
 A convolutional neural network that can detect how people are wearing a mask, given a photo centered on their face.
 
 ## Usage
-This model has been deployed using a Rest API with Flask. Follow the instructions to get a classification of a custom photo:
+This model has been deployed using a Rest API with Flask. Follow these steps to get a classification of a custom photo:
 
 * Use a client that can send HTTP requests (e.g. Insomnia or cURL) to query https://ml-api-1024.herokuapp.com/ with a POST request. 
 * Use a multipart form and attach one (or multiple) photos. For best results, make sure the face takes up the whole image.
