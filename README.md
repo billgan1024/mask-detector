@@ -5,9 +5,9 @@ A convolutional neural network that can detect how people are wearing a mask, gi
 ## Usage
 This model has been deployed using a Rest API with Flask. Follow these steps to get a classification of a custom photo:
 
-* Use a client that can send HTTP requests (e.g. Insomnia or cURL) to query https://ml-api-1024.herokuapp.com/ with a POST request. 
+* Use a client that can send HTTP requests (e.g. Insomnia or cURL) to query https://ml-api-1024.herokuapp.com/ with a POST request. (The application can be inactive when not used for a while, so the first request can take about a minute.) 
 * Use a multipart form and attach one (or multiple) photos. For best results, make sure the face takes up the whole image.
-* The Rest API will return a json object (Python dictionary) containing the classification for each photo for each file (indexed by filename).
+* The Rest API will return a json object containing the classification for each photo for each file (indexed by filename).
 
 ![image](https://user-images.githubusercontent.com/17630457/147899457-0c7a2ccb-a653-4e05-8615-c7c7bb9f0d97.png)
 
