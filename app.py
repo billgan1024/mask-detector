@@ -13,6 +13,7 @@ ret = {}
 # this endpoint can work with multiple image uploads
 @app.route("/", methods=["POST"])
 def home():
+    ret = {}
     for name, file in request.files.items():
         # resize image to 180x180x3
         img = Image.open(file).convert("RGB").resize((180, 180))
