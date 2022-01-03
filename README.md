@@ -8,6 +8,9 @@ This model has been deployed using a Rest API with Flask. Follow the instruction
 * Use a client that can send HTTP requests (e.g. Insomnia or cURL) to query https://ml-api-1024.herokuapp.com/ with a POST request. 
 * Use a multipart form and attach one (or multiple) photos. For best results, make sure the face takes up the whole image.
 * The Rest API will return a json object (Python dictionary) containing the classification for each photo for each file (indexed by filename).
+
+![image](https://user-images.githubusercontent.com/17630457/147899457-0c7a2ccb-a653-4e05-8615-c7c7bb9f0d97.png)
+
 ### Classifications
 * `incorrect_mask` means the mask is not worn properly.
 * `with_mask` represents a correctly worn mask.
