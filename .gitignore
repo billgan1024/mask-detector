@@ -1,0 +1,8 @@
+.vscode
+env
+.env
+.flaskenv
+logs
+*.ipynb
+__pycache__
+data
