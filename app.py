@@ -8,11 +8,11 @@ import tensorflow as tf
 app = Flask(__name__)
 model = keras.models.load_model("model.h5")
 class_names = ['mask_weared_incorrect', 'with_mask', 'without_mask']
+ret = {}
 
 # this endpoint can work with multiple image uploads
 @app.route("/", methods=["POST"])
 def home():
-    ret = {}
     for name, file in request.files.items():
         # resize image to 180x180x3
         img = Image.open(file).convert("RGB").resize((180, 180))
