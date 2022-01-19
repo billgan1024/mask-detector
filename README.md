@@ -2,6 +2,8 @@
 
 A convolutional neural network that can detect how people are wearing a mask, given a photo centered on their face.
 
+![visitors](https://visitor-badge-reloaded.herokuapp.com/badge?page_id=mask-detector)
+
 ## Usage
 This model has been deployed using a Rest API with Flask. Follow these steps to get a classification of a custom photo:
 
